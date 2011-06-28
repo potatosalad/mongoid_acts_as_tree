@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/mongoid_acts_as_tree.rb",
+     "lib/potatosalad-mongoid_acts_as_tree.rb",
      "potatosalad-mongoid_acts_as_tree.gemspec",
      "test/helper.rb",
      "test/models/category.rb",
