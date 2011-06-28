@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "mongoid_acts_as_tree"
+    gem.name = "potatosalad-mongoid_acts_as_tree"
     gem.summary = %Q{ActsAsTree plugin for Mongoid}
     gem.description = %Q{Port of the old, venerable ActsAsTree with a bit of a twist}
-    gem.email = "saksmlz@gmail.com"
+    gem.email = "potatosaladx@gmail.com"
     gem.homepage = "http://github.com/saks/mongoid_acts_as_tree"
-    gem.authors = ["Jakob Vidmar, Aliaksandr Rahalevich"]
+    gem.authors = ["Jakob Vidmar, Aliaksandr Rahalevich", "Andrew Bennett"]
     gem.add_dependency("mongoid", ">= 2.0.0")
     gem.add_dependency("bson", ">= 0.20.1")
 
